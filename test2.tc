@@ -1,0 +1,12 @@
+int ana() {
+    int x = 5;
+    eger (x > 0) {
+        // Pozitif
+    } degilse {
+        // Negatif
+    }
+    icin (int i = 0; i < 10; i = i + 1) {
+        // Döngü
+    }
+    dondur 0;
+}
