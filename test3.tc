@@ -1,0 +1,17 @@
+int kare(int x) {
+    dondur x * x;
+}
+
+int ana() {
+    int toplam = 0;
+    int i;
+    icin (i = 0; i < 5; i = i + 1) {
+        toplam = toplam + kare(i);
+    }
+    eger (toplam >= 25) {
+        dondur toplam;
+    } degilse {
+        dondur 0;
+    }
+}
+
