@@ -1,0 +1,5 @@
+int ana() {
+    int x = 5
+    dondur x;
+}
+
