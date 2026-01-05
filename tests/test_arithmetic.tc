@@ -1,0 +1,12 @@
+/* test_arithmetic.tc - Basic arithmetic operations test */
+
+int ana() {
+    int a = 5;
+    int b = 3;
+    int c = a + b;       /* c = 8 */
+    int d = c * 2;       /* d = 16 */
+    int e = d - a;       /* e = 11 */
+    int f = e / 2;       /* f = 5 */
+    int g = e % 3;       /* g = 2 */
+    dondur f + g;        /* returns 7 */
+}

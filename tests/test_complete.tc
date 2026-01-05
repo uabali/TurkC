@@ -1,0 +1,42 @@
+/* test_complete.tc - Complete program with all features */
+
+/* Calculate factorial using iteration */
+int faktoriyel(int n) {
+    int sonuc = 1;
+    int i;
+    
+    icin (i = 1; i <= n; i = i + 1) {
+        sonuc = sonuc * i;
+    }
+    
+    dondur sonuc;
+}
+
+/* Calculate sum of squares from 1 to n */
+int kare_toplam(int n) {
+    int toplam = 0;
+    int i = 1;
+    
+    iken (i <= n) {
+        toplam = toplam + i * i;
+        i = i + 1;
+    }
+    
+    dondur toplam;
+}
+
+/* Main function */
+int ana() {
+    int f5 = faktoriyel(5);      /* 5! = 120 */
+    int k4 = kare_toplam(4);     /* 1+4+9+16 = 30 */
+    
+    int sonuc;
+    
+    eger (f5 > k4) {
+        sonuc = f5 - k4;         /* 120 - 30 = 90 */
+    } degilse {
+        sonuc = k4 - f5;
+    }
+    
+    dondur sonuc;    /* Should return 90 */
+}

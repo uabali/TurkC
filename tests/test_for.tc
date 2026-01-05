@@ -1,0 +1,12 @@
+/* test_for.tc - For loop test */
+
+int ana() {
+    int toplam = 0;
+    int i;
+    
+    icin (i = 1; i <= 10; i = i + 1) {
+        toplam = toplam + i;
+    }
+    
+    dondur toplam;    /* Should return 1+2+...+10 = 55 */
+}

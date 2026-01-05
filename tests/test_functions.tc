@@ -1,0 +1,15 @@
+/* test_functions.tc - Function declarations and calls test */
+
+int topla(int a, int b) {
+    dondur a + b;
+}
+
+int carp(int x, int y) {
+    dondur x * y;
+}
+
+int ana() {
+    int sonuc = topla(3, 4);
+    int sonuc2 = carp(sonuc, 2);
+    dondur sonuc2;
+}

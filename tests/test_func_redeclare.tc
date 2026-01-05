@@ -1,0 +1,13 @@
+/* test_func_redeclare.tc - Should report error: function redeclaration */
+
+int foo() {
+    dondur 1;
+}
+
+int foo() {    /* ERROR: foo is already declared */
+    dondur 2;
+}
+
+int ana() {
+    dondur foo();
+}

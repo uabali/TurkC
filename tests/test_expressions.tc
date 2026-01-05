@@ -1,0 +1,16 @@
+/* test_expressions.tc - Arithmetic expressions test */
+
+int ana() {
+    int a = 10;
+    int b = 3;
+    
+    int toplam = a + b;
+    int fark = a - b;
+    int carpim = a * b;
+    int bolum = a / b;
+    int kalan = a % b;
+    
+    int karmasik = (a + b) * 2 - (a - b);
+    
+    dondur karmasik;
+}

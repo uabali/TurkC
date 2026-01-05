@@ -1,0 +1,10 @@
+/* test_invalid_call.tc - Should report error: wrong argument count */
+
+int topla(int a, int b) {
+    dondur a + b;
+}
+
+int ana() {
+    int sonuc = topla(5);    /* ERROR: topla expects 2 arguments, got 1 */
+    dondur sonuc;
+}

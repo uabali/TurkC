@@ -1,0 +1,7 @@
+/* test_undeclared_var.tc - Should report error: undeclared variable */
+
+int ana() {
+    int x = 5;
+    y = 10;    /* ERROR: y is not declared */
+    dondur x + y;
+}

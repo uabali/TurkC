@@ -1,0 +1,15 @@
+/* test_function_call.tc - Function call and return test */
+
+int kare(int n) {
+    dondur n * n;
+}
+
+int kup(int n) {
+    dondur n * n * n;
+}
+
+int ana() {
+    int a = kare(3);     /* 9 */
+    int b = kup(2);      /* 8 */
+    dondur a + b;        /* Should return 17 */
+}

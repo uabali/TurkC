@@ -1,0 +1,14 @@
+/* test_if_else.tc - If/else conditional test */
+
+int ana() {
+    int x = 10;
+    int sonuc;
+    
+    eger (x > 5) {
+        sonuc = 1;
+    } degilse {
+        sonuc = 0;
+    }
+    
+    dondur sonuc;    /* Should return 1 */
+}

@@ -1,0 +1,13 @@
+/* test_while.tc - While loop test */
+
+int ana() {
+    int toplam = 0;
+    int i = 1;
+    
+    iken (i <= 5) {
+        toplam = toplam + i;
+        i = i + 1;
+    }
+    
+    dondur toplam;    /* Should return 1+2+3+4+5 = 15 */
+}

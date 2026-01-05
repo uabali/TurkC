@@ -1,0 +1,8 @@
+/* test_var_decl.tc - Variable declarations test */
+
+int ana() {
+    int x = 5;
+    int y = 10;
+    int z = x + y;
+    dondur z;
+}

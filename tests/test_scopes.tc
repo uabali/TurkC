@@ -1,0 +1,13 @@
+/* test_scopes.tc - Nested scopes and shadowing test */
+
+int ana() {
+    int x = 1;
+    {
+        int x = 2;
+        int y = x + 1;
+    }
+    {
+        int x = 3;
+    }
+    dondur x;
+}

@@ -1,0 +1,14 @@
+/* test_nested_control.tc - Nested control flow test */
+
+int ana() {
+    int toplam = 0;
+    int i;
+    
+    icin (i = 1; i <= 10; i = i + 1) {
+        eger (i % 2 == 0) {
+            toplam = toplam + i;
+        }
+    }
+    
+    dondur toplam;    /* Should return 2+4+6+8+10 = 30 */
+}

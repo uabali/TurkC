@@ -1,0 +1,7 @@
+/* test_redeclare.tc - Should report error: redeclaration in same scope */
+
+int ana() {
+    int x = 5;
+    int x = 10;    /* ERROR: x is already declared */
+    dondur x;
+}
