@@ -1,11 +1,3 @@
-# TurkC Lexer Projesi
-
-Bu proje, derleyici tasarım dersi için hazırlanmıştır. Türkçe anahtar kelimelerle temel bir programlama dili (TurkC) tanımlanmış ve Flex kullanarak bir lexer (scanner) yazılmıştır.
-
----
-
-## English Version
-
 # TurkC Lexer Project
 
 This project is prepared for the compiler design course. A basic programming language (TurkC) with Turkish keywords is defined, and a lexer (scanner) is written using Flex.
